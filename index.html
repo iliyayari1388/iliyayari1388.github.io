@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Iliya Yari — mathematics, olympiad problem solving, combinatorics, number theory, economics and economic security. Personal portfolio.">
+  <meta name="theme-color" content="#080b12">
+  <title>Iliya Yari — Mathematics · Economics · Digital Work</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="orb orb-a" aria-hidden="true"></div>
+  <div class="orb orb-b" aria-hidden="true"></div>
+  <div class="orb orb-c" aria-hidden="true"></div>
+  <div class="grid-bg" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Iliya Yari home">
+      <span class="brand-mark">IY</span>
+      <span class="brand-text">ILIYA <b>YARI</b></span>
+    </a>
+    <nav class="nav" id="site-nav" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#domains">Domains</a>
+      <a href="#projects">Projects</a>
+      <a href="#timeline">Timeline</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" id="commandBtn" title="Open command palette" aria-label="Open command palette">⌘</button>
+      <button class="icon-btn" id="themeBtn" title="Toggle theme" aria-label="Toggle theme">◐</button>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-copy">
+        <div class="status-pill"><span class="pulse"></span> BUILDING IDEAS AT THE INTERSECTION OF MATH &amp; SYSTEMS</div>
+        <h1>Ideas, equations,<br><span class="gradient-text">systems.</span></h1>
+        <p class="hero-lead">I’m <strong>Iliya Yari</strong>, based in Ilam, Iran — working across mathematics, olympiad problem solving, digital experiments, economics, and economic security.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">Explore work <span>↗</span></a>
+          <a class="btn ghost" href="#contact">Contact me <span>→</span></a>
+        </div>
+        <div class="hero-meta">
+          <span><i>01</i> Mathematics</span>
+          <span><i>02</i> Economics</span>
+          <span><i>03</i> Digital projects</span>
+        </div>
+      </div>
+
+      <div class="hero-visual" id="mathScene" aria-label="Interactive mathematical visual">
+        <div class="visual-glow"></div>
+        <canvas id="mathCanvas"></canvas>
+        <div class="equation-card card-float">
+          <div class="eq-label">CURRENT FRAME</div>
+          <div class="equation">Σ <span>f(n)</span> → <strong>structure</strong></div>
+          <div class="eq-caption">Explore • formalize • build</div>
+        </div>
+        <div class="orbit-card mini-card">
+          <span class="mini-icon">∑</span>
+          <div><b>Olympiad</b><small>Problem design</small></div>
+        </div>
+        <div class="orbit-card mini-card mini-card-2">
+          <span class="mini-icon">◈</span>
+          <div><b>Systems</b><small>Economic security</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section-shell section">
+      <div class="section-head">
+        <div><span class="eyebrow">01 / ABOUT</span><h2>A profile built around <span class="gradient-text">curiosity.</span></h2></div>
+        <p>Not a static CV. A living map of interests, experiments, and mathematical work.</p>
+      </div>
+      <div class="about-grid">
+        <article class="glass about-main reveal">
+          <div class="about-number">IY<span>/01</span></div>
+          <p class="big-copy">My work and interests sit where <em>abstract reasoning</em> meets <em>real systems</em>.</p>
+          <p>I spend substantial time solving and developing olympiad-style mathematics, especially problems with deep structure, hidden lemmas, and multi-stage arguments. Alongside mathematics, I work on digital projects and explore economics and security in economic systems.</p>
+          <div class="tag-row"><span>Independent work</span><span>Mathematics</span><span>Systems thinking</span><span>Digital design</span></div>
+        </article>
+        <aside class="glass facts reveal">
+          <div class="fact"><span>BASE</span><strong>Ilam, Iran</strong></div>
+          <div class="fact"><span>FOCUS</span><strong>Math · Economics · Security</strong></div>
+          <div class="fact"><span>FORMAT</span><strong>Problems · Research-style notes · Web</strong></div>
+          <div class="fact"><span>STACK</span><strong>HTML · CSS · JS · LaTeX · Asymptote</strong></div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="domains" class="section-shell section">
+      <div class="section-head"><div><span class="eyebrow">02 / DOMAINS</span><h2>Where I <span class="gradient-text">build depth.</span></h2></div><p>Hover, click, and filter the areas below.</p></div>
+      <div class="domain-grid">
+        <button class="domain-card reveal" data-domain="math" type="button"><span class="domain-index">01</span><span class="domain-symbol">∮</span><h3>Mathematics</h3><p>Problem solving, proof design, olympiad mathematics and mathematical writing.</p><span class="domain-link">Open focus ↗</span></button>
+        <button class="domain-card reveal" data-domain="combinatorics" type="button"><span class="domain-index">02</span><span class="domain-symbol">◫</span><h3>Combinatorics</h3><p>Extremal structures, games, graphs, configurations and constructive ideas.</p><span class="domain-link">Open focus ↗</span></button>
+        <button class="domain-card reveal" data-domain="number" type="button"><span class="domain-index">03</span><span class="domain-symbol">ℤ</span><h3>Number Theory</h3><p>Digit sums, divisibility, arithmetic functions and prime-based structures.</p><span class="domain-link">Open focus ↗</span></button>
+        <button class="domain-card reveal" data-domain="economics" type="button"><span class="domain-index">04</span><span class="domain-symbol">◈</span><h3>Economics</h3><p>Interest in economic systems, incentives, resilience and how complex markets behave.</p><span class="domain-link">Open focus ↗</span></button>
+        <button class="domain-card reveal" data-domain="security" type="button"><span class="domain-index">05</span><span class="domain-symbol">⌁</span><h3>Economic Security</h3><p>Exploring robustness, dependencies, systemic risk and security within economic systems.</p><span class="domain-link">Open focus ↗</span></button>
+        <button class="domain-card reveal" data-domain="digital" type="button"><span class="domain-index">06</span><span class="domain-symbol">⌬</span><h3>Digital Projects</h3><p>Interactive educational web apps, visual systems, LaTeX and Asymptote workflows.</p><span class="domain-link">Open focus ↗</span></button>
+      </div>
+    </section>
+
+    <section id="projects" class="section-shell section">
+      <div class="section-head"><div><span class="eyebrow">03 / PROJECTS</span><h2>Selected <span class="gradient-text">workbench.</span></h2></div><p>These cards are framed as projects and areas of work, not as a list of formal awards or publications.</p></div>
+      <div class="filter-bar" role="group" aria-label="Project filters">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="math">Math</button>
+        <button class="filter" data-filter="web">Web</button>
+        <button class="filter" data-filter="economics">Economics</button>
+      </div>
+      <div class="project-grid" id="projectGrid">
+        <article class="project glass reveal" data-type="math" data-title="Olympiad Problem Lab" data-detail="A working space for developing, stress-testing and presenting high-difficulty olympiad-style problems across combinatorics, number theory, geometry and algebra."><div class="project-top"><span>MATHEMATICS</span><span>LAB / 01</span></div><h3>Olympiad Problem Lab</h3><p>Designing difficult, elegant problems with layered structure and proof paths.</p><div class="project-bottom"><span>Combinatorics · NT · Geometry · Algebra</span><b>↗</b></div></article>
+        <article class="project glass reveal" data-type="web" data-title="Interactive Math Web Apps" data-detail="Static front-end experiments built around learning, navigation, mathematical content and interaction — using HTML, CSS and JavaScript."><div class="project-top"><span>WEB</span><span>LAB / 02</span></div><h3>Interactive Math Web Apps</h3><p>Turning mathematical content into dynamic, visual and mobile-friendly interfaces.</p><div class="project-bottom"><span>HTML · CSS · JavaScript</span><b>↗</b></div></article>
+        <article class="project glass reveal" data-type="math" data-title="Polynomial Literature" data-detail="A book project centered on polynomials and olympiad preparation, with professional LaTeX production and mathematical diagrams."><div class="project-top"><span>BOOK PROJECT</span><span>LAB / 03</span></div><h3>Polynomial Literature</h3><p>A long-form mathematics project focused on polynomials and olympiad preparation.</p><div class="project-bottom"><span>LaTeX · XeLaTeX · Asymptote</span><b>↗</b></div></article>
+        <article class="project glass reveal" data-type="economics" data-title="Economic Systems & Security" data-detail="An ongoing area of study and exploration focused on economic systems, robustness, dependencies, incentives and security-related questions."><div class="project-top"><span>ECONOMICS</span><span>LAB / 04</span></div><h3>Economic Systems &amp; Security</h3><p>Exploring resilience, systemic dependencies and security within economic systems.</p><div class="project-bottom"><span>Systems thinking · Risk · Resilience</span><b>↗</b></div></article>
+        <article class="project glass reveal" data-type="math" data-title="LaTeX / Asymptote Studio" data-detail="A workflow for converting mathematical diagrams and problem statements into precise, publication-ready LaTeX and Asymptote assets."><div class="project-top"><span>TYPESETTING</span><span>LAB / 05</span></div><h3>LaTeX / Asymptote Studio</h3><p>Precision typesetting and technical mathematical illustration for problems and solutions.</p><div class="project-bottom"><span>XeLaTeX · Amiri · Asymptote</span><b>↗</b></div></article>
+        <article class="project glass reveal" data-type="web" data-title="Portfolio System" data-detail="This very website: a zero-database, GitHub Pages-ready personal system with animated visuals, filters, command palette, theme switching and responsive layouts."><div class="project-top"><span>DIGITAL</span><span>LAB / 06</span></div><h3>This Portfolio</h3><p>A fast static personal site designed as a small interactive system, not a plain résumé.</p><div class="project-bottom"><span>GitHub Pages · JS · CSS</span><b>↗</b></div></article>
+      </div>
+    </section>
+
+    <section id="timeline" class="section-shell section">
+      <div class="section-head"><div><span class="eyebrow">04 / TIMELINE</span><h2>A growing <span class="gradient-text">trajectory.</span></h2></div><p>Use this as a living record and update it as new milestones become official.</p></div>
+      <div class="timeline">
+        <div class="time-line"></div>
+        <div class="time-item reveal"><div class="time-dot"></div><div class="time-year">01</div><div class="time-content glass"><span>MATHEMATICS</span><h3>Olympiad problem solving &amp; design</h3><p>Ongoing work across advanced olympiad mathematics, proof writing, and problem construction.</p></div></div>
+        <div class="time-item reveal"><div class="time-dot"></div><div class="time-year">02</div><div class="time-content glass"><span>DIGITAL</span><h3>Mathematics meets interactive design</h3><p>Building educational web experiences and precise mathematical visualizations.</p></div></div>
+        <div class="time-item reveal"><div class="time-dot"></div><div class="time-year">03</div><div class="time-content glass"><span>ECONOMICS</span><h3>Economic systems &amp; security</h3><p>Expanding into economics and questions around robustness and security in complex economic systems.</p></div></div>
+        <div class="time-item reveal"><div class="time-dot"></div><div class="time-year">∞</div><div class="time-content glass"><span>NEXT</span><h3>More problems. More systems. More experiments.</h3><p>This site is designed to evolve with the work.</p></div></div>
+      </div>
+    </section>
+
+    <section class="section-shell section signal-section">
+      <div class="signal-wrap glass reveal">
+        <div class="signal-copy"><span class="eyebrow">LIVE SYSTEM / LOCAL</span><h2>Think in structures,<br><span class="gradient-text">not isolated facts.</span></h2><p>The visual below is a small browser-side generative system. Move your pointer through it and watch the network reorganize.</p><button class="btn primary" id="reseedBtn" type="button">Re-seed system ↻</button></div>
+        <div class="signal-canvas-wrap"><canvas id="networkCanvas"></canvas><div class="network-overlay">LOCAL GENERATIVE MODEL <span>●</span></div></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section-shell section contact-section">
+      <div class="contact-card glass reveal">
+        <span class="eyebrow">05 / CONTACT</span>
+        <h2>Let’s make the next idea <span class="gradient-text">sharper.</span></h2>
+        <p>For mathematical collaboration, problem discussions, digital projects, or thoughtful conversations about economics and economic security.</p>
+        <div class="contact-actions">
+          <a class="contact-mail" href="mailto:iliyayari09@gmail.com">iliyayari09@gmail.com</a>
+          <button class="btn ghost" id="copyEmail" type="button">Copy email <span>⧉</span></button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer section-shell">
+    <div><span class="brand-text">ILIYA <b>YARI</b></span><span class="footer-note"> / Mathematics · Economics · Digital work</span></div>
+    <div>© <span id="year"></span> Iliya Yari · Built for GitHub Pages</div>
+  </footer>
+
+  <div class="modal" id="projectModal" aria-hidden="true"><div class="modal-backdrop" data-close></div><div class="modal-card glass"><button class="modal-close" data-close aria-label="Close">×</button><span class="eyebrow">PROJECT DETAIL</span><h2 id="modalTitle"></h2><p id="modalDetail"></p><div class="modal-rule"></div><div class="modal-facts"><span><b>FORMAT</b> Interactive portfolio entry</span><span><b>STATUS</b> Ongoing / evolving</span></div></div></div>
+
+  <div class="modal" id="domainModal" aria-hidden="true"><div class="modal-backdrop" data-close-domain></div><div class="modal-card glass"><button class="modal-close" data-close-domain aria-label="Close">×</button><span class="eyebrow">FOCUS AREA</span><h2 id="domainTitle"></h2><p id="domainDetail"></p><div class="tag-row" id="domainTags"></div></div></div>
+
+  <div class="command" id="commandPalette" aria-hidden="true"><div class="command-backdrop" data-close-command></div><div class="command-card glass"><div class="command-head"><span>COMMAND PALETTE</span><kbd>ESC</kbd></div><input id="commandInput" placeholder="Jump to a section…" autocomplete="off"><div class="command-list" id="commandList"><button data-jump="#about"><span>01</span> About</button><button data-jump="#domains"><span>02</span> Domains</button><button data-jump="#projects"><span>03</span> Projects</button><button data-jump="#timeline"><span>04</span> Timeline</button><button data-jump="#contact"><span>05</span> Contact</button></div></div></div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
